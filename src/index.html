@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h2 id="Name">Event Handler</h2>
+    
+    <div id="myCalender">
+      <div class="menuOff" id="menu">
+        <form id="myForm" class="formOff">
+          <label for="eventTitle">Title</label>
+          <input
+            type="text"
+            name="eventTitle"
+            placeholder="add title"
+            id="eventTitle"
+          />
+          <label for="eventDes">Time in days</label>
+          <input
+            type="number"
+            name="eventDay"
+            placeholder="add time (days)"
+            id="eventDay"
+          />
+          <div>
+          <button id="GoBack" type="button">Back</button>
+          <button type="submit">Add event</button></div>
+        
+        </form>
+        <form id="remForm" class="formOff">
+          <label for="remTitle">Title of event</label>
+          <input
+            type="text"
+            name="remTitle"
+            placeholder="add title"
+            id="remTitle"
+          />
+          <div>
+          <button id="GoBack2" type="button">Back</button>
+          <button type="submit">Remove event</button></div>
+        </form>
+        <img
+          id="addBtn"
+          src="../public/icons8-add-64.png"
+          width="32"
+          height="32"
+        />
+
+        <img
+          id="remBtn"
+          src="../public/icons8-remove-64.png"
+          width="32"
+          height="32"
+        />
+      </div>
+      <!-- <h4 >My Calendar</h4> -->
+      <div id="calendar"></div>
+    </div>
+  </body>
+</html>
